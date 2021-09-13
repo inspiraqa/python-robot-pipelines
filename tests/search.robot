@@ -16,4 +16,4 @@ Realizando busca por TESTE
     Input Text                      ${campo_busca}      TESTE 
     Press Keys                      ${campo_busca}      ENTER
     Wait Until Element Is Visible   ${resultados}    
-    Element Should Contain          ${titulos_busca}    test  
+    Element Should Contain          ${titulos_busca}    Teste  
